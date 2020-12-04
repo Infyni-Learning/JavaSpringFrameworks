@@ -1,0 +1,13 @@
+package service;
+
+import java.util.ArrayList;
+
+import bean.Product;
+
+public class ProductService {
+	ArrayList<Product> listOfProduct = new ArrayList<Product>();
+	
+		public void addProduct(int pid,String pname,float price) {
+			
+		}
+}

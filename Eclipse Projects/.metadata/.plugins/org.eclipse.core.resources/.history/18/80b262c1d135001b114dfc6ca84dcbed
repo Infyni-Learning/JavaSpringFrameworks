@@ -1,0 +1,24 @@
+package com;
+
+import java.util.ArrayList;
+
+public class CollectionWithGenerics {
+
+	public static void main(String[] args) {
+		//Collection without Generics 
+		/*ArrayList al = new ArrayList();
+			al.add(10);				//auto-boxing 
+			al.add("Raj");
+			al.add(true);
+			al.add(10.20);
+			al.add(20);
+			
+			Object obj = al.get(1);				//instanceOf 
+			Integer i = (Integer)obj;
+			int n = i.intValue();
+			System.out.println(n);*/
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		
+	}
+
+}

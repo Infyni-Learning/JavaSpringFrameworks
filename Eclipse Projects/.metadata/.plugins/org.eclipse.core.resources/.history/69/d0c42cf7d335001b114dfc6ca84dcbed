@@ -1,0 +1,18 @@
+package main;
+
+import bean.Product;
+
+public class DemoTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Product p1 = new Product();
+		p1.setPid(100);
+		p1.setPname("Laptop");
+		p1.setPrice(85000);
+		
+		Product p2 = new Product(101, "Sony TV", 150000);
+		
+	}
+
+}

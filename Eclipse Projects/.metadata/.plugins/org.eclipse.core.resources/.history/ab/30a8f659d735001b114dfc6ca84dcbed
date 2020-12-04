@@ -1,0 +1,13 @@
+package com;
+
+import java.util.ArrayList;
+
+public class CollectionsDemo {
+
+	public static void main(String[] args) {
+	ArrayList<String> al =new ArrayList<String>();
+	al.add("Dinesh"); al.add("Vijay"); al.add("Mahesh"); al.add("Ajay"); al.add("Vijay");
+	
+	}
+
+}

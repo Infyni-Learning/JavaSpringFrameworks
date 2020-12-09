@@ -1,0 +1,8 @@
+package bean;
+
+public class Product {
+private int id;
+private String pname;
+private float salary;
+
+}

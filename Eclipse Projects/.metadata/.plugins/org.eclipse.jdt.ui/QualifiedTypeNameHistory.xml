@@ -15,7 +15,6 @@
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.ListIterator"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
@@ -26,9 +25,19 @@
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="bean.EmployeeSorByIdAsc"/>
     <fullyQualifiedTypeName name="bean.EmployeeSortByIdDes"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="service.ProductService"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="bean.Product"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.function.Consumer"/>
+    <fullyQualifiedTypeName name="com.MyConsumer"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
 </qualifiedTypeNameHistroy>

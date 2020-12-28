@@ -19,7 +19,6 @@
     <servlet-name>Abc</servlet-name>
     <url-pattern>/Hi</url-pattern>
   </servlet-mapping>
-  
   <servlet>
     <description></description>
     <display-name>Login</display-name>
@@ -30,5 +29,14 @@
     <servlet-name>Login</servlet-name>
     <url-pattern>/Login</url-pattern>
   </servlet-mapping>
-  
+  <servlet>
+    <description></description>
+    <display-name>Home</display-name>
+    <servlet-name>Home</servlet-name>
+    <servlet-class>com.Home</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Home</servlet-name>
+    <url-pattern>/Home</url-pattern>
+  </servlet-mapping>
 </web-app>

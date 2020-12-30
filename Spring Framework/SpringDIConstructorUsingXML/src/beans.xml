@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+
+<!-- 
+
+<bean class="com.Employee" id="emp1">
+
+</bean>
+
+<bean class="com.Employee" id="emp2" scope="prototype">
+
+</bean>
+
+
+<bean class="com.Employee" id="emp3">
+	<constructor-arg value="101"></constructor-arg>
+	<constructor-arg value="Ravi"></constructor-arg>
+	<constructor-arg value="16000"></constructor-arg>
+</bean>
+
+
+<bean class="com.Employee" id="emp4">
+	<property name="id" value="102"></property>
+	<property name="name" value="Ramesh"></property>
+	<property name="salary" value="220000"></property>
+</bean>
+
+
+<bean class="com.Employee" id="emp5">
+		<property name="name" value="Raju"></property>
+		<property name="id" value="103"></property>
+</bean>
+
+<bean class="com.Address" id="address">
+	<property name="city" value="Bangalore"></property>
+	<property name="state" value="Kar"></property>
+</bean>
+ -->
+ 
+ <bean class="com.Employee" id="employee">
+ 	<property name="id" value="100"></property>
+ 	<property name="name" value="Ravi"></property>
+ 	<property name="salary" value="12000"></property>
+ 	<property name="add" ref="address"></property>
+ </bean>
+ 
+ <bean class="com.Address" id="address">
+	<property name="city" value="Bangalore"></property>
+	<property name="state" value="Kar"></property>
+</bean>
+ 
+</beans>

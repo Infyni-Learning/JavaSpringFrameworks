@@ -44,11 +44,39 @@
  	<property name="name" value="Ravi"></property>
  	<property name="salary" value="12000"></property>
  	<property name="add" ref="address"></property>
+ 	<property name="stdNames">
+ 	<set>
+ 		<value>Ravi</value>
+ 		<value>Ramesh</value>
+ 		<value>Rajesh</value>
+ 		<value>Lokesh</value>
+ 	</set>
+ 	</property>
+ 	<property name="listOfProjects">
+ 		<list>
+ 			<ref bean="p1"/>
+ 			<ref bean="p2"/>
+ 			<ref bean="p2"/>
+ 		</list>
+ 	</property>
  </bean>
  
  <bean class="com.Address" id="address">
 	<property name="city" value="Bangalore"></property>
 	<property name="state" value="Kar"></property>
 </bean>
+ <bean class="com.Project" id="p1">
+ 	<property name="pid" value="100"></property>
+ 	<property name="pname" value="Java"></property>
+ </bean>
  
+  <bean class="com.Project" id="p2">
+ 	<property name="pid" value="101"></property>
+ 	<property name="pname" value="dotNet"></property>
+ </bean>
+ 
+  <bean class="com.Project" id="p3">
+ 	<property name="pid" value="102"></property>
+ 	<property name="pname" value="Angular"></property>
+ </bean>
 </beans>

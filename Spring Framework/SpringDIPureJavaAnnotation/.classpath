@@ -6,10 +6,11 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/91990/Desktop/Java Training/JavaSpringFrameworks/Spring jar files/spring-beans-5.2.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/91990/Desktop/Java Training/JavaSpringFrameworks/Spring jar files/spring-core-5.2.0.RELEASE.jar"/>
 	<classpathentry kind="lib" path="C:/Users/91990/Desktop/Java Training/JavaSpringFrameworks/Spring jar files/commons-logging-1.1.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/91990/Desktop/Java Training/JavaSpringFrameworks/Spring jar files/spring-aop-5.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91990/Desktop/Java Training/JavaSpringFrameworks/Spring jar files/spring-beans-5.2.0.RELEASE.jar"/>
 	<classpathentry kind="lib" path="C:/Users/91990/Desktop/Java Training/JavaSpringFrameworks/Spring jar files/spring-context-5.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91990/Desktop/Java Training/JavaSpringFrameworks/Spring jar files/spring-core-5.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91990/Desktop/Java Training/JavaSpringFrameworks/Spring jar files/spring-expression-5.2.0.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,10 +1,35 @@
 package com;
 
+import java.util.List;
+import java.util.Set;
+
 public class Employee {
 private int id;
 private String name;
 private float salary;
 private Address add;
+private Set<String> stdNames;
+private List<Project> listOfProjects;
+	public Set<String> getStdNames() {
+	return stdNames;
+}
+
+
+public List<Project> getListOfProjects() {
+		return listOfProjects;
+	}
+
+
+	public void setListOfProjects(List<Project> listOfProjects) {
+		this.listOfProjects = listOfProjects;
+	}
+
+
+public void setStdNames(Set<String> stdNames) {
+	this.stdNames = stdNames;
+}
+
+
 	public Employee() {
 		// TODO Auto-generated constructor stub
 		System.out.println("Object created....");
@@ -63,8 +88,14 @@ private Address add;
 
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ", add=" + add + "]";
+		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ", add=" + add + ", stdNames="
+				+ stdNames + ", listOfProjects=" + listOfProjects + "]";
 	}
+
+
+
+
+	
 
 
 	

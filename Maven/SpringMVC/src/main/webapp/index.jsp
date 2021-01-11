@@ -11,5 +11,7 @@
 <input type="password" name="pass"><br/>
 <input type="submit" value="Submit">
 </form>
+<br/>
+<a href="open.spring">Employee Store Page</a>
 </body>
 </html>

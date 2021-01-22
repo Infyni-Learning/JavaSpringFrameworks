@@ -1,9 +1,12 @@
 package com;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement
+@Entity
 public class Employee {
+@Id
 private int id;
 private String name;
 private float salary;
@@ -13,6 +16,11 @@ public Employee(int id, String name, float salary) {
 	this.id = id;
 	this.name = name;
 	this.salary = salary;
+}
+
+@Override
+public String toString() {
+	return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + "]";
 }
 
 public Employee() {

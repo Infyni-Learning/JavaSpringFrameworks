@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.akashproject</groupId>
+  <artifactId>SpringBootRestWithSpringData</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+    <version>2.3.4.RELEASE</version>
+</dependency>
+
+  	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-jdbc -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-jdbc</artifactId>
+    <version>2.3.4.RELEASE</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-jpa</artifactId>
+    <version>2.3.4.RELEASE</version>
+</dependency>
+
+  	  <dependency>
+  <groupId>com.oracle</groupId>
+  <artifactId>ojdbc6</artifactId>
+ <version>11.2.0.4</version>
+  </dependency>
+  <!--  XML convertion -->
+<dependency>
+    <groupId>com.fasterxml.jackson.dataformat</groupId>
+    <artifactId>jackson-dataformat-xml</artifactId>
+    <version>2.11.0</version>
+</dependency>
+  
+  </dependencies>
+</project>

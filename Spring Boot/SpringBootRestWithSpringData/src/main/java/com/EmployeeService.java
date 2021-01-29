@@ -31,7 +31,15 @@ public class EmployeeService {
 		if(emp.getSalary()<0) {
 		return "Salary must be +ve";
 		}else {
-		return "Wait we will update";
+		Optional<Employee> op= employeeDao.findById(emp.getId());
+				if(op.isPresent()) {
+					Employee e=  op.get();
+					e.setSalary(emp.getSalary());
+					employeeDao.saveAndFlush(e);
+					return "Record updated successfully";
+				}else {
+					return "Record is not present";
+				}
 		}
 	}
 }

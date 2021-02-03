@@ -1,0 +1,8 @@
+server:
+  port: 9292
+spring:
+  application:    name: account-service-oracle  datasource:    username: scott
+    password: tiger
+    url: jdbc:oracle:thin:@localhost:1521/orcl
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    

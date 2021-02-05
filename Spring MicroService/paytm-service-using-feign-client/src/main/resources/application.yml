@@ -1,0 +1,4 @@
+server:
+  port: 9494
+spring:
+  application:    name: paytm-service-using-feign-client     

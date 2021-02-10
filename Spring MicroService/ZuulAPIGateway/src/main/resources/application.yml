@@ -1,0 +1,7 @@
+server:
+  port: 9999
+zuul:  ignored-services: "*"
+  prefix: /api
+  routes:    PAYTM-SERVICE-USING-FEIGN-CLIENT:
+      path: /accountinfo/**
+      service-id: PAYTM-SERVICE-USING-FEIGN-CLIENT

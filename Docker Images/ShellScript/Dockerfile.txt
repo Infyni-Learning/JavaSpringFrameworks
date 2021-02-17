@@ -1,0 +1,3 @@
+FROM alpine
+COPY helloword.sh /
+CMD ["sh","/helloword.sh"]

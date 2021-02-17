@@ -1,0 +1,8 @@
+<html>
+
+	<body>
+		<%
+			out.println("Welcome to Simple JSP page throug Docker file");
+		%>
+	</body>
+</html>

@@ -1,0 +1,5 @@
+FROM java:8-jdk-alpine 
+COPY ./target/SpringBootRest-RuningUsingDockerContainer-0.0.1-SNAPSHOT.jar usr/app/SpringBootRest-RuningUsingDockerContainer-0.0.1-SNAPSHOT.jar
+WORKDIR usr/app
+ENTRYPOINT ["java","-jar","SpringBootRest-RuningUsingDockerContainer-0.0.1-SNAPSHOT.jar"]
+
